@@ -118,8 +118,18 @@ class ttt
                             r = sc.nextInt();
                             System.out.println("\n Enter Column ");
                             c = sc.nextInt();
-                    }
+                            arr[r][c] = ch;
+                        }
                 }
+            else
+            {
+                            System.out.println("\t\n RETRY! ");
+                            System.out.println("\n Enter Row ");
+                            r = sc.nextInt();
+                            System.out.println("\n Enter Column ");
+                            c = sc.nextInt();
+                            arr[r][c] = ch;
+            }
                displayBoard(); 
                changeplayer();
                if(current_player==p1)
